@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bieu_mau</title>
+</head>
+<body>
+<h2>Form is HTML5</h2>
+<OL>
+    <li><a href="button-and-hidden-controls.html">Example1</a></li>
+    <li><a href="checkbox.html">Example2</a></li>
+    <li><a href="drop-down-list-box.html">Example3</a></li>
+    <li><a href="file-input-box.html">Example4</a></li>
+    <li><a href="grouping-form-elements.html"></a>Example5</li>
+    <li><a href="html5-date-input.html">Example6</a></li>
+    <li><a href="html5-email-input.html">Example7</a></li>
+    <li><a href="html5-form-validation.html">Example8</a></li>
+    <li><a href="html5-placeholder.html">Example9</a></li>
+    <li><a href="html5-search-input.html">Example10</a></li>
+    <li><a href="html5-url-input.html">Example11</a></li>
+    <li><a href="image-button.html">Example12</a></li>
+    <li><a href="labelling-form-controls.html">Example13</a></li>
+    <li><a href="password-input.html">Example14</a></li>
+    <li><a href="radio-button.html">Example15</a></li>
+    <li><a href="submit-button.html">Example16</a></li>
+    <li><a href="text-input.html">Example17</a></li>
+    <li><a href="textarea.html">Example18</a></li>
+</OL>
+<fieldset>
+  <legend>Your details</legend>
+  <label for="username">Name:</label>
+    <input type="text" name="username" required="required"/> <br/>
+  <label for="email">Email: </label>
+    <input type="text" name="email" required="required" />
+</fieldset>
+<br/>
+<fieldset>
+    <legend>Your Review</legend>
+    <form action="https://www.example.com/profile.php">
+        <label>How did you hear about us?
+        <select name="source">
+            <option value="google">Google</option>
+            <option value="facebook">Facebook</option>
+            <option value="yotube">Yotube</option>
+            </select>
+    </form>
+    <form action="https://www.example.com/profile.php">
+        <p>Would you visit again?</p>
+        <input type="radio" name="service" value="yes" checked="checked"/> Yes
+        <input type="radio" name="service" value="no" checked="checked" /> No
+        <input type="radio" name="service" value="maybe" checked="checked" /> Maybe
+    </form>
+    <form action="https://www.example.com/comments.php">
+        <p>Comments:</p>
+        <textarea name="comments" cols="40" rows="4"></textarea>
+    </form>
+    <form action="https://www.example.com/subscibe.php">
+        <input type="checkbox" checked="checked">Sign me up for email updates <br/>
+        <input type="submit" value="Submit review">
+    </form>
+</fieldset>
+</body>
+</html>
