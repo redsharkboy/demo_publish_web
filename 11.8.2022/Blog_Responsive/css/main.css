@@ -1,0 +1,51 @@
+.p-5{
+    max-width: 100%;
+    height: auto;
+    background-image: url("../img/pngtree-wallpaper-art-design-graphic-background-picture-image_616990.jpg");
+}
+.p-5 img{
+    width: 1263.33px;
+}
+.p-5 h1{
+    /*position: relative;*/
+    font-family: "Freestyle Script";
+    font-size: 150px;
+}
+.p-5 p{
+    /*padding-left: 100px;*/
+    /*position: absolute;*/
+    margin-top: -40px;
+    font-size: 20px;
+    text-align: center;
+}
+.fakeimg1{
+    max-width: 324px;
+    height: 235px;
+    background-image: url("../img/Anh-avatar-dep-cho-con-trai-324x235.jpg");
+}
+.fakeimg2{
+    background-image: url("../img/stt-hay-ve-bau-troi-tinh-yeu.jpg");
+    height: 427px;
+}
+.fakeimg2 p{
+    font-family: cursive;
+    font-style: italic;
+}
+.btroi {
+    text-align: center;
+    font-family: "Matura MT Script Capitals";
+}
+.col-sm-8 h5 {
+    font-style: italic;
+    text-align: center;
+}
+.col-sm-8 p{
+    font-family: cursive;
+}
+.fakeimg3{
+    background-image: url("../img/anh-bia-dep-tuyet-voi-ve-bau-troi-xanh-4.jpg");
+    height: 315px;
+}
+.mt-5{
+    text-align: center;
+}
