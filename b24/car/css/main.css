@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    display: inline-block;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.container{
+    margin-left: 60px;
+    display: inline-block;
+    background-color: rgba(164, 159, 159, 0.7);
+}
+.col-8{
+
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: white;
+}
+.imgs{
+    margin-top: 20px;
+    position: relative;
+}
+.tables{
+    display: inline-block;
+    height: 150px;
+    width: 700px;
+    line-height: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-left: 100px;
+    margin-left: -12px;
+    background-color: rgba(231, 228, 228, 0.84);
+}
+.tr1{
+    color: darkgray;
+}
+.tr2{
+    font-weight: bold;
+}
+.tr3{
+    color: darkgray;
+}
+.tr4{
+    font-weight: bold;
+}
+.purchase{
+    color: white;
+}
+.td1{
+    padding-top: 15px;
+}
+.col-3{
+    margin-top: 20px;
+    width: 330px;
+    float: right;
+    margin-left:20px;
+    display: inline-block;
+}
+.tables1{
+    height: 385px;
+    background-color: white;
+    padding-right: 15px;
+    padding-top: 45px;
+    padding-left: 15px;
+    line-height: 50px;
+}
+.tables2{
+    padding-right: 15px;
+    padding-top: 45px;
+    padding-left: 15px;
+    line-height: 25px;
+    height: 260px;
+   background-color: rgba(231, 228, 228, 0.84);
+
+}
+.social-icon{
+    width: auto;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+.social-icon a{
+    text-decoration: none;
+}
