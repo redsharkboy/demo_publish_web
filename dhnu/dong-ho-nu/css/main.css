@@ -1,0 +1,373 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #985f0d;
+}
+.menu-box{
+    box-sizing: border-box;
+    width: auto;
+    height: 50px;
+    background-color: #d9d4cd;
+    text-align: center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.sanpham-img{
+    padding-right: 100px;
+}
+
+
+#menu-box{
+    margin-top: 10px;
+    max-width: 100%;
+    line-height: 50px;
+    height: 50px;
+    background-color:#e2deda ;
+    padding-left: 65px;
+}
+
+.sanpham-info{
+    position: relative;
+    right: 50px;
+}
+.sanpham-info-logo img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.sanpham-info-name ,h3{
+    font-size: 18px ;
+    font-weight: 200;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Helvetica !important;
+    color: #53534a !important;
+}
+.code {
+    font-weight: bold;
+    color: #777;
+    text-align: center;
+}
+.coin span{
+    margin-right: 10px;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.sanpham-chitiet{
+    position: relative;
+    font-family: Arial;
+    display: block;
+    line-height: 50px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    background-color: #d9d4cd;
+    border-radius: 12px;
+    border: none;
+}
+/*.sanpham-chitiet:hover{*/
+/*    !*color: #FFFFFF;*!*/
+/*    font-weight: bold;*/
+/*    box-shadow: 0px 0px 10px 0px rgb(234, 228, 222);*/
+/*}*/
+.sanpham-chitiet span{
+    position: absolute;
+    /*display: none;*/
+    padding-left: 60px;
+    /*background-color: #FFFFFF;*/
+}
+.sanpham-noidung{
+    display: none;
+    padding: 20px;
+    line-height:20px;
+    font-weight: lighter;
+    text-align: left;
+    font-size: 14px;
+    background-color: #FFFFFF;
+}
+.sanpham-them {
+    /*position: absolute;*/
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    font-size: 15px;
+    background-color: #d9d4cd;
+    border-radius: 12px;
+    border: none;
+}
+.sanpham-them span{
+    position: absolute;
+    padding-left: 70px;
+}
+.sanpham-noidung2 {
+    display: none;
+    padding: 20px;
+    line-height: 20px;
+    font-weight: lighter;
+    text-align: left;
+    font-size: 14px;
+    background-color: #FFFFFF;
+}
+.icon{
+    margin-top: -30px;
+    padding: 0px;
+    padding-left: 90px;
+    text-align: center;
+}
+ul{
+    display: flex;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.social-icon{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 15px;
+    list-style: none;
+    font-size: 20px;
+}
+.social-icon .share-facebook{
+    color: #53534a !important;
+    background-position: -75px -92px;
+    background-size: 120px;
+    width: 28px;
+    height: 28px;
+}
+.social-icon .share-twiter{
+    color: #53534a !important;
+    background-position: -75px -92px;
+    background-size: 120px;
+    width: 28px;
+    height: 28px;
+}
+.social-icon .share-github{
+    color: #53534a !important;
+    background-position: -75px -92px;
+    background-size: 120px;
+    width: 28px;
+    height: 28px;
+}
+.social-icon .share-mail{
+    color: #53534a !important;
+    background-position: -75px -92px;
+    background-size: 120px;
+    width: 28px;
+    height: 28px;
+}
+.butons2{
+    position: relative;
+    margin-top: -30px;
+    padding-right: 10px;
+}
+#push1:hover{
+    background-color: #FFFFFF;
+}
+#push1:hover span{
+    border: 25px solid #FFFFFF;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+span{
+    display: inline-block;
+}
+#push1, #push2{
+    width: 175px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#push1{
+    position: relative;
+    background-color: #dbb86f ;
+    text-align: left;
+    padding-left: 70px;
+    margin-left: -50px;
+    margin-right: 0px;
+    right: auto;
+}
+#push1 span{
+    border: 25px solid #dbb86f  ;
+    border-bottom: 25px solid transparent;
+    border-right: 25px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -50px;
+}
+#push2{
+    background-color: #53534a ;
+    text-align: right;
+    padding-right: 70px;
+    position: relative;
+    margin-left: 50px;
+    top: 0px;
+    left: auto;
+}
+#push2 span{
+    border: 25px solid transparent;
+    border-bottom: 25px solid #53534a;
+    border-right: 25px solid #53534a;
+    position: absolute;
+    top: 0px;
+    left: -50px;
+}
+.button3{
+    position: relative;
+    margin-top: 10px;
+}
+.sanpham-online{
+    margin-top: 5px;
+}
+#push3{
+    display: inline-block;
+    position: relative;
+    background-color: #dbb86f ;
+    width: 250px;
+    height: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: left;
+    line-height: 25px;
+    padding-left: 35px;
+    right: 50px;
+}
+#push4{
+    display: inline-block;
+    width: 150px;
+    height: 25px;
+    background-color: #dbb86f ;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    padding-right: 0px;
+    margin-left: -50px;
+    position: relative;
+    top: 0px;
+    left: auto;
+}
+
+
+.menu{
+    border: none;
+    border-right: 1px solid #e7e7e7;
+
+
+}
+.a-menu{
+    border-left: 1px solid #e7e7e7;
+    padding: 10px 30px 0 10px;
+
+
+}
+
+.a-menu label{
+
+}
+
+.a-menu a{
+    color: #72726a;
+    text-decoration: none;
+    font-weight: normal;
+    transition: all 0.3s;
+}
+
+
+.a-menu p{
+    font-size: 14px;
+    line-height: 2.5;
+
+}
+.a-menu a:hover{
+    color: #333333;
+    text-decoration: underline;
+    text-decoration-color: #b29c6e;
+    font-weight: bold;
+}
+.imglogo{
+    /*background: url("/imgs/luxurybackground.webp");*/
+    /*background-color: transparent;*/
+    max-width: 100%;
+    vertical-align: middle;
+    padding-left: 450px;
+    padding-right: 420px;
+    /*background-color: #dbb86f;*/
+    /*padding-top: 0px;*/
+    /*padding-bottom: 0px;*/
+}
+
+.bg-footer-down{
+    background-color: #a5a3a3;
+
+
+}
+.footer-down{
+    text-align: center;
+    padding-top: 15px;
+
+}
+.footer-down p{
+    color: white;
+}
+
+.img-watch{
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.button5{
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    background-color: #dbb86f;
+    transition: 0.3s;
+    border-radius: 2px 0px;
+}
+.button5:hover{
+    background-color: #fcf4f4;
+    text-decoration: none;
+
+}
+.button6{
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    background-color: rgba(164, 159, 159, 0.7);
+    transition: 0.3s;
+    border-radius: 2px 0;
+}
+.sanpham-chitiet:hover{
+    background-color: #e3dfdf;
+    text-decoration: none;
+}
+.sanpham-them:hover{
+    background-color: #e3dfdf;
+    text-decoration: none;
+}
